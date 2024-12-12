@@ -39,7 +39,7 @@ namespace bitrate_exercise
 
                 if (data?.NIC == null)
                 {
-                    throw new InvalidOperationException("No NIC data found in the JSON.");
+                    throw new Exception("No NIC data found in the JSON.");
                 }
             }
             catch (Exception ex)
